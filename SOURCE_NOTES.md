@@ -21,3 +21,8 @@ Qodoraty: physically removed original PDF page8, the financial summary containin
 The client ribbon includes six existing names and twelve names expressly supplied by the user in this revision; it does not invent logos or per-client results. Agency copy describes experience across Egypt and the Gulf without naming a founder or inventing tenure. The hero is a code-native brand composition around the supplied VEX logo.
 
 The subsequent about-section refinement replaces the wide cover thumbnail with a code-native VEX identity panel using the supplied logo, matching the hero's violet/gold treatment. The panel incorporates the existing portfolio counts and stretches to the same desktop row dimensions as the copy. Both Arabic and English layouts and 320/390/768/1024 frame widths were checked; the smaller layouts stack naturally without cropping the mark.
+
+
+## Account display names,24 October2026
+
+The user requested these portfolio display labels, in existing account order: Vex Agency → Vex Agency 1; Qelaa 1 → Vex Agency 2; Qelaa 2 → Vex Agency 3. Account IDs, campaigns and all figures remain unchanged. sourceAccountName retains each original snapshot name for provenance. The labels are used consistently in report tabs, headings, comparisons and CSV downloads.

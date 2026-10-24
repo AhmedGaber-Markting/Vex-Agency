@@ -16644,7 +16644,7 @@
     "accounts": [
       {
         "id": "vex",
-        "name": "Vex Agency",
+        "name": "Vex Agency 1",
         "currency": "EGP",
         "totals": {
           "spend": 9895.02,
@@ -16713,7 +16713,7 @@
         ],
         "campaigns": [
           {
-            "account_name": "Vex Agency",
+            "account_name": "Vex Agency 1",
             "account_currency": "EGP",
             "campaign": "‏دكتور بلس‏ - 1",
             "spend": 1999.72,
@@ -16723,7 +16723,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 2
           },
           {
-            "account_name": "Vex Agency",
+            "account_name": "Vex Agency 1",
             "account_currency": "EGP",
             "campaign": "‏الجيزاوي صاحب القعدة‏ 2",
             "spend": 1684.93,
@@ -16733,7 +16733,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 349
           },
           {
-            "account_name": "Vex Agency",
+            "account_name": "Vex Agency 1",
             "account_currency": "EGP",
             "campaign": "‏الجيزاوي صاحب القعدة‏ - 3",
             "spend": 1583.19,
@@ -16743,7 +16743,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 553
           },
           {
-            "account_name": "Vex Agency",
+            "account_name": "Vex Agency 1",
             "account_currency": "EGP",
             "campaign": "weza",
             "spend": 1191.14,
@@ -16753,7 +16753,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 43
           },
           {
-            "account_name": "Vex Agency",
+            "account_name": "Vex Agency 1",
             "account_currency": "EGP",
             "campaign": "مصوغات الكعبة",
             "spend": 1000,
@@ -16763,7 +16763,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 5
           },
           {
-            "account_name": "Vex Agency",
+            "account_name": "Vex Agency 1",
             "account_currency": "EGP",
             "campaign": "waqar",
             "spend": 999.47,
@@ -16773,7 +16773,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 0
           },
           {
-            "account_name": "Vex Agency",
+            "account_name": "Vex Agency 1",
             "account_currency": "EGP",
             "campaign": "دكتور بلس",
             "spend": 694.77,
@@ -16783,7 +16783,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 10
           },
           {
-            "account_name": "Vex Agency",
+            "account_name": "Vex Agency 1",
             "account_currency": "EGP",
             "campaign": "الجيزاوي صاحب القعدة",
             "spend": 541.91,
@@ -16793,7 +16793,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 224
           },
           {
-            "account_name": "Vex Agency",
+            "account_name": "Vex Agency 1",
             "account_currency": "EGP",
             "campaign": "ema شهر 4",
             "spend": 200,
@@ -16803,7 +16803,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 26
           },
           {
-            "account_name": "Vex Agency",
+            "account_name": "Vex Agency 1",
             "account_currency": "EGP",
             "campaign": "ema store 2",
             "spend": 0,
@@ -16819,11 +16819,12 @@
           "clicks": 0,
           "actions_lead": 0,
           "actions_onsite_conversion_messaging_conversation_started_7d": 0
-        }
+        },
+        "sourceAccountName": "Vex Agency"
       },
       {
         "id": "qelaa1",
-        "name": "Qelaa 1",
+        "name": "Vex Agency 2",
         "currency": "EGP",
         "totals": {
           "spend": 94614.91,
@@ -16892,7 +16893,7 @@
         ],
         "campaigns": [
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "Lead Generation",
             "spend": 34715.24,
@@ -16902,7 +16903,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 123
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "‏‏ليد فورم‏‏ - شهر 9",
             "spend": 8720.02,
@@ -16912,7 +16913,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 182
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "قطعة 7 تجاري",
             "spend": 8579.92,
@@ -16922,7 +16923,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 69
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "‏ليد فورم‏",
             "spend": 8299,
@@ -16932,7 +16933,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 72
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "‏‎Lead Generation‎‏ 8",
             "spend": 6855.45,
@@ -16942,7 +16943,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 41
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "ليد قطعة 7",
             "spend": 4121.27,
@@ -16952,7 +16953,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 11
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "ليد فورم قطعة 8",
             "spend": 3571.36,
@@ -16962,7 +16963,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 42
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "ليد فورم",
             "spend": 2182.5,
@@ -16972,7 +16973,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 37
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "بوليفارد شهر 6",
             "spend": 1999.9,
@@ -16982,7 +16983,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 57
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "engagement Boulevard",
             "spend": 1513.26,
@@ -16992,7 +16993,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 118
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "‏‏‏ليد فورم‏‏ - ‏من 22/9",
             "spend": 1443.44,
@@ -17002,7 +17003,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 13
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "lead 05/2026",
             "spend": 1225.18,
@@ -17012,7 +17013,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 10
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "lead WhatsApp",
             "spend": 1214.2,
@@ -17022,7 +17023,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 60
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "sales",
             "spend": 1176.11,
@@ -17032,7 +17033,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 62
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "Lead Generation Boulevard",
             "spend": 1003.53,
@@ -17042,7 +17043,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 0
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "تفاعل بوليفارد",
             "spend": 962.7,
@@ -17052,7 +17053,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 0
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "page like",
             "spend": 652.56,
@@ -17062,7 +17063,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 0
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "‏‎page like‎‏ - تكرار",
             "spend": 618.47,
@@ -17072,7 +17073,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 0
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "engagement",
             "spend": 600,
@@ -17082,7 +17083,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 1
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "‏بوليفارد شهر 7",
             "spend": 573.38,
@@ -17092,7 +17093,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 29
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "Hiring",
             "spend": 500,
@@ -17102,7 +17103,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 269
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "سكني مفروش engagment",
             "spend": 499.97,
@@ -17112,7 +17113,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 2
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "1 ‏‎sales‎‏",
             "spend": 459.9,
@@ -17122,7 +17123,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 7
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "سكني مفروش ليدز",
             "spend": 459.22,
@@ -17132,7 +17133,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 0
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "page like 1",
             "spend": 424.65,
@@ -17142,7 +17143,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 0
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "lead",
             "spend": 317.81,
@@ -17152,7 +17153,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 1
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "فديو مينا",
             "spend": 255.8,
@@ -17162,7 +17163,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 0
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "‏‏ليد فورم‏‏ - شهر 9 تجاري",
             "spend": 255.08,
@@ -17172,7 +17173,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 0
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "‏‎engagement‎‏ - تكرار",
             "spend": 245.7,
@@ -17182,7 +17183,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 2
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "تفاعل بوليفارد بوست",
             "spend": 245.15,
@@ -17192,7 +17193,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 1
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "lead test",
             "spend": 222.95,
@@ -17202,7 +17203,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 2
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "test sels",
             "spend": 198.68,
@@ -17212,7 +17213,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 4
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "واتساب تطبيق",
             "spend": 165.7,
@@ -17222,7 +17223,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 3
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "0 ‏‎engagement‎‏",
             "spend": 95.63,
@@ -17232,7 +17233,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 2
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "test traffic",
             "spend": 76.36,
@@ -17242,7 +17243,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 0
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "ليدز قطعة 7  شهر 8",
             "spend": 61.72,
@@ -17252,7 +17253,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 1
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "1 ‏‎Lead Generation‎‏",
             "spend": 60.64,
@@ -17262,7 +17263,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 0
           },
           {
-            "account_name": "Qelaa 1",
+            "account_name": "Vex Agency 2",
             "account_currency": "EGP",
             "campaign": "‏‎engagement 1",
             "spend": 42.46,
@@ -17278,11 +17279,12 @@
           "clicks": 0,
           "actions_lead": 0,
           "actions_onsite_conversion_messaging_conversation_started_7d": 0
-        }
+        },
+        "sourceAccountName": "Qelaa 1"
       },
       {
         "id": "qelaa2",
-        "name": "Qelaa 2",
+        "name": "Vex Agency 3",
         "currency": "EGP",
         "totals": {
           "spend": 19266.02,
@@ -17351,7 +17353,7 @@
         ],
         "campaigns": [
           {
-            "account_name": "Qelaa 2",
+            "account_name": "Vex Agency 3",
             "account_currency": "EGP",
             "campaign": "‏السكني المفروش شهر 7",
             "spend": 8221.8,
@@ -17361,7 +17363,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 147
           },
           {
-            "account_name": "Qelaa 2",
+            "account_name": "Vex Agency 3",
             "account_currency": "EGP",
             "campaign": "سكني ليدز",
             "spend": 6607.63,
@@ -17371,7 +17373,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 23
           },
           {
-            "account_name": "Qelaa 2",
+            "account_name": "Vex Agency 3",
             "account_currency": "EGP",
             "campaign": "ليد قطعه 7",
             "spend": 1423.73,
@@ -17381,7 +17383,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 7
           },
           {
-            "account_name": "Qelaa 2",
+            "account_name": "Vex Agency 3",
             "account_currency": "EGP",
             "campaign": "page like",
             "spend": 1241.81,
@@ -17391,7 +17393,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 0
           },
           {
-            "account_name": "Qelaa 2",
+            "account_name": "Vex Agency 3",
             "account_currency": "EGP",
             "campaign": "قطعه 7 تجاري",
             "spend": 520.44,
@@ -17401,7 +17403,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 0
           },
           {
-            "account_name": "Qelaa 2",
+            "account_name": "Vex Agency 3",
             "account_currency": "EGP",
             "campaign": "السكني المفروش شهر 6",
             "spend": 484,
@@ -17411,7 +17413,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 36
           },
           {
-            "account_name": "Qelaa 2",
+            "account_name": "Vex Agency 3",
             "account_currency": "EGP",
             "campaign": "اعلان",
             "spend": 344.82,
@@ -17421,7 +17423,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 49
           },
           {
-            "account_name": "Qelaa 2",
+            "account_name": "Vex Agency 3",
             "account_currency": "EGP",
             "campaign": "تفاعل",
             "spend": 181.02,
@@ -17431,7 +17433,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 0
           },
           {
-            "account_name": "Qelaa 2",
+            "account_name": "Vex Agency 3",
             "account_currency": "EGP",
             "campaign": "قطعه 7 اخر شهر 7",
             "spend": 162.92,
@@ -17441,7 +17443,7 @@
             "actions_onsite_conversion_messaging_conversation_started_7d": 0
           },
           {
-            "account_name": "Qelaa 2",
+            "account_name": "Vex Agency 3",
             "account_currency": "EGP",
             "campaign": "تفاعل سكني مفروش",
             "spend": 77.85,
@@ -17457,7 +17459,8 @@
           "clicks": 0,
           "actions_lead": 0,
           "actions_onsite_conversion_messaging_conversation_started_7d": 0
-        }
+        },
+        "sourceAccountName": "Qelaa 2"
       }
     ]
   },
