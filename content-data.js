@@ -1,4 +1,4 @@
-﻿window.__PORTFOLIO_CONTENT__ = {
+window.__PORTFOLIO_CONTENT__ = {
     "contact":  {
                     "name":  "VEX Agency",
                     "phone":  "+201020969108",
@@ -10,6 +10,100 @@
                     "facebook2":  "https://web.facebook.com/vex.agencyy?locale=ar_AR"
                 },
     "projects":  {
+                     "dalil-store":  {
+                                         "title":  {
+                                                       "ar":  "متجر دليل",
+                                                       "en":  "Dalil Store"
+                                                   },
+                                         "category":  {
+                                                          "ar":  "تجارة إلكترونية / السعودية",
+                                                          "en":  "E-commerce / Saudi Arabia"
+                                                      },
+                                         "scope":  {
+                                                       "ar":  "نماذج تصاميم إعلانية لمتجر دليل، تعرض باقات بيانات واتصالات من STC وموبايلي وزين إلى جانب عروض منتجات مختارة",
+                                                       "en":  "Advertising creative samples for Dalil Store, featuring STC, Mobily and Zain data plans alongside selected product offers"
+                                                   },
+                                         "contribution":  {
+                                                              "ar":  [
+                                                                         "تصميم مواد إعلانية رقمية لمنتجات وعروض المتجر",
+                                                                         "إبراز الأسعار ومزايا الباقات بصياغات عربية واضحة",
+                                                                         "تنويع المعالجة البصرية بين عروض الاتصالات والمنتجات"
+                                                                     ],
+                                                              "en":  [
+                                                                         "Designing digital advertising assets for store products and offers",
+                                                                         "Highlighting plan benefits and pricing with clear Arabic messaging",
+                                                                         "Using varied visual treatments across telecom and product offers"
+                                                                     ]
+                                                          },
+                                         "tags":  [
+                                                      "ECOMMERCE",
+                                                      "CREATIVE CAMPAIGN",
+                                                      "SAUDI ARABIA"
+                                                  ],
+                                         "media":  [
+                                                       {
+                                                           "type":  "image",
+                                                           "src":  "assets/portfolio/dalil/dalil-creative-01.png",
+                                                           "alt":  {
+                                                                       "ar":  "تصميم دعائي لباقات متجر دليل",
+                                                                       "en":  "Dalil Store package advertising creative"
+                                                                   }
+                                                       },
+                                                       {
+                                                           "type":  "image",
+                                                           "src":  "assets/portfolio/dalil/dalil-creative-02.png",
+                                                           "alt":  {
+                                                                       "ar":  "عرض شريحة STC وباقة الإنترنت",
+                                                                       "en":  "STC SIM and internet plan offer"
+                                                                   }
+                                                       },
+                                                       {
+                                                           "type":  "image",
+                                                           "src":  "assets/portfolio/dalil/dalil-creative-03.png",
+                                                           "alt":  {
+                                                                       "ar":  "عرض باقة بيانات موبايلي",
+                                                                       "en":  "Mobily data plan offer"
+                                                                   }
+                                                       },
+                                                       {
+                                                           "type":  "image",
+                                                           "src":  "assets/portfolio/dalil/dalil-creative-04.png",
+                                                           "alt":  {
+                                                                       "ar":  "تصميم باقة إنترنت منزلي من دليل",
+                                                                       "en":  "Dalil home internet package creative"
+                                                                   }
+                                                       },
+                                                       {
+                                                           "type":  "image",
+                                                           "src":  "assets/portfolio/dalil/dalil-creative-05.png",
+                                                           "alt":  {
+                                                                       "ar":  "عرض باقة STC للألعاب",
+                                                                       "en":  "STC gaming plan offer"
+                                                                   }
+                                                       },
+                                                       {
+                                                           "type":  "image",
+                                                           "src":  "assets/portfolio/dalil/dalil-creative-06.png",
+                                                           "alt":  {
+                                                                       "ar":  "تصميم عرض باقات اتصالات منزلية",
+                                                                       "en":  "Home telecom plans offer creative"
+                                                                   }
+                                                       },
+                                                       {
+                                                           "type":  "image",
+                                                           "src":  "assets/portfolio/dalil/dalil-creative-07.jpeg",
+                                                           "alt":  {
+                                                                       "ar":  "تصميم عرض جزيرة العود في متجر دليل",
+                                                                       "en":  "Island of Oud offer on Dalil Store"
+                                                                   }
+                                                       }
+                                                   ],
+                                         "id":  "dalil-store",
+                                         "filters":  [
+                                                         "creative"
+                                                     ],
+                                         "thumbnail":  "assets/portfolio/dalil/dalil-creative-01.png"
+                                     },
                      "qelaa":  {
                                    "title":  {
                                                  "ar":  "قلاع للتطوير العقاري",
