@@ -181,7 +181,7 @@
   }
 
   function allEvidence(){
-    return [...data.results.map(r=>({...r,platform:'meta',image:r.src,metrics:[{value:n(r.value),label:r.metric},...(r.cost!=null?[{value:n(r.cost,2)+' '+r.currency,label:{ar:'تكلفة النتيجة',en:'Cost per result'}}]:[]),...(r.extra||[])],note:r.context})),...data.platformResults.map(r=>({...r,image:r.images[0].src}))];
+    return [...data.results.map(r=>({...r,platform:r.platform||'meta',image:r.src,metrics:[{value:n(r.value),label:r.metric},...(r.cost!=null?[{value:n(r.cost,2)+' '+r.currency,label:{ar:'تكلفة النتيجة',en:'Cost per result'}}]:[]),...(r.extra||[])],note:r.context})),...data.platformResults.map(r=>({...r,image:r.images[0].src}))];
   }
   function periodText(r){return r.period?.length?`${r.period[0]} → ${r.period[1]}`:tr('الفترة الكاملة غير ظاهرة في المصدر','Complete period not visible in the source');}
   const platformBadges = {
@@ -275,7 +275,7 @@
     $('#service-grid').innerHTML=items.map(([label,ar,en,desc,descEn],i)=>`<article class="service-item"><div class="service-top"><span>${String(i+1).padStart(2,'0')} / ${label}</span><span aria-hidden="true">↗</span></div><h3>${e(tr(ar,en))}</h3><p>${e(tr(desc,descEn))}</p></article>`).join('');
     const steps=[['CREATE','نفهم نشاطك وجمهورك ونطوّر الفكرة والرسالة','Understand your business & audience; architect the concept and core hooks'],['TEST','نختبر زوايا متعددة ونقرأ استجابة السوق والبيانات بدقة','Deploy multi-angle testing and evaluate empirical audience response'],['SCALE','نطوّر ما يثبت كفاءته ونوسّع الاستثمار بمضاعفة الأرباح','Scale the winning creative angles aggressively to compound ROI and market share']];
     $('#process').innerHTML=steps.map(([title,ar,en])=>`<div class="process-item"><strong>${title}</strong><span>${e(tr(ar,en))}</span></div>`).join('');
-    $('#about-stats').innerHTML=[[data.stats.projects,tr('مشروعًا ودراسة عمل','Projects & case studies')],[data.stats.videos,tr('فيديو في المعرض','Videos in the portfolio')],[data.stats.plans,tr('خطة وملف محتوى','Plans & content files')]].map(([num,label])=>`<div><strong dir="ltr">${num}</strong><span>${e(label)}</span></div>`).join('');
+    $('#about-stats').innerHTML=[tr('مشاريع ودراسات عمل','Projects & case studies'),tr('فيديو في المعرض','Videos in the portfolio'),tr('خطة وملف محتوى','Plans & content files')].map(label=>`<div><span>${e(label)}</span></div>`).join('');
   }
 
   function renderLandingPages(){
@@ -437,7 +437,7 @@
 
   function openEvidence(id){
     const r=allEvidence().find(r=>r.id===id);if(!r)return;
-    showViewer(loc(r.title),r.platform.toUpperCase()+' / PERFORMANCE EVIDENCE',`<div id="viewer-media"></div>${chips(r.metrics)}<p class="source-note">${e(loc(r.note))}</p><p class="source-note evidence-period" dir="${r.period?.length?'ltr':'auto'}">${e(periodText(r))}</p>`);
+    showViewer(loc(r.title),(platformBadges[r.platform]?.label||r.platform.toUpperCase())+' / PERFORMANCE EVIDENCE',`<div id="viewer-media"></div>${chips(r.metrics)}<p class="source-note">${e(loc(r.note))}</p><p class="source-note evidence-period" dir="${r.period?.length?'ltr':'auto'}">${e(periodText(r))}</p>`);
     setupMedia((r.images||[{src:r.src}]).map(i=>({type:'image',src:i.src,alt:r.title})));
   }
 
@@ -536,6 +536,7 @@
   }
   window.addEventListener('scroll',()=>{if(!scrollQueued){scrollQueued=true;requestAnimationFrame(updateScrollProgress);}},{passive:true});
   window.addEventListener('resize',updateScrollProgress);
+  updateScrollProgress();
 
   function renderAll(){
     if(!data)return;
@@ -633,9 +634,19 @@
     });
   });
 
-  const bundledData=window.__PORTFOLIO_CONTENT__ || window.VEX_PORTFOLIO_DATA;
+  const bundledContent=()=>window.__PORTFOLIO_CONTENT__ || window.VEX_PORTFOLIO_DATA;
   const validContent=value=>value && value.projects && Array.isArray(value.documents) && Array.isArray(value.reports?.accounts);
   async function loadContent(){
+    if(location.protocol==='file:' && !validContent(bundledContent())){
+      await new Promise((resolve,reject)=>{
+        const script=document.createElement('script');
+        script.src='content-data.js?v=20261027-platform-fixes';
+        script.addEventListener('load',resolve,{once:true});
+        script.addEventListener('error',()=>reject(new Error('Offline portfolio content unavailable')),{once:true});
+        document.head.append(script);
+      });
+    }
+    const bundledData=bundledContent();
     if(location.protocol==='file:' && validContent(bundledData))return bundledData;
     try{
       const response=await fetch('content.json',{cache:'no-cache'});

@@ -3021,6 +3021,7 @@
                     },
                     {
                         "id":  "traffic-4450",
+                        "platform":  "tiktok",
                         "group":  "traffic",
                         "title":  {
                                       "ar":  "عينة حملة — نقرات الوجهة",
@@ -3287,6 +3288,7 @@
                     },
                     {
                         "id":  "traffic-484",
+                        "platform":  "tiktok",
                         "group":  "traffic",
                         "title":  {
                                       "ar":  "عينة حملة — الوصول والزيارات",
@@ -3335,6 +3337,7 @@
                     },
                     {
                         "id":  "video-7569",
+                        "platform":  "tiktok",
                         "group":  "traffic",
                         "title":  {
                                       "ar":  "عينة حملة — مشاهدات الفيديو",
@@ -3383,6 +3386,7 @@
                     },
                     {
                         "id":  "paid-12511",
+                        "platform":  "snapchat",
                         "group":  "traffic",
                         "title":  {
                                       "ar":  "عينة حملة — ظهور وزيارات",

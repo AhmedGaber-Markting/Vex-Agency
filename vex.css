@@ -1345,7 +1345,9 @@ tbody tr:hover {
   display:grid;
   grid-template-columns:repeat(3,1fr);
   gap:25px;
-  padding-top:25px
+  padding-top:25px;
+  align-items:center;
+  text-align:center
 }
 
 .about-stats strong {
@@ -1355,7 +1357,8 @@ tbody tr:hover {
 }
 
 .about-stats span {
-  font-size:10px;
+  font-size:12px;
+  line-height:1.6;
   color:var(--muted)
 }
 
@@ -4247,11 +4250,13 @@ dialog[open]  {
 
 .about-identity .scene-emblem img {
   width: 100%;
+  max-width: 200px;
   height: auto;
   aspect-ratio: 1;
   object-fit: contain;
   border: 0;
   border-radius: 50%;
+  margin-inline: auto;
 }
 
 .about-identity .scene-emblem>span {
@@ -4277,7 +4282,7 @@ dialog[open]  {
 }
 
 .about-brand .about-stats strong { font-size: 30px; }
-.about-brand .about-stats span { font-size: 10px; }
+.about-brand .about-stats span { font-size: 11px; }
 .about-copy { min-width: 0; display: flex; flex-direction: column; }
 .about-copy>.text-link { align-self: flex-start; margin-top: auto; }
 
@@ -4289,7 +4294,7 @@ dialog[open]  {
   .about-identity .scene-emblem>span { font-size: 8px; letter-spacing: 3px; }
   .about-identity .scene-signature { font-size: 18px; letter-spacing: 0; }
   .about-brand .about-stats strong { font-size: 25px; }
-  .about-brand .about-stats span { font-size: 8px; }
+  .about-brand .about-stats span { font-size: 9px; }
 }
 
 @media (max-width:620px) {
@@ -4304,7 +4309,7 @@ dialog[open]  {
   .about-identity .scene-signature { font-size: clamp(18px,5vw,25px); bottom: 6%; }
   .about-brand .about-stats { margin-top: 12px; padding-top: 18px; gap: 8px; }
   .about-brand .about-stats strong { font-size: 27px; }
-  .about-brand .about-stats span { font-size: 8px; }
+  .about-brand .about-stats span { font-size: 9px; }
   .about-copy>.text-link { margin-top: 0; }
 }
 

@@ -3021,6 +3021,7 @@ window.__PORTFOLIO_CONTENT__ = {
                     },
                     {
                         "id":  "traffic-4450",
+                        "platform":  "tiktok",
                         "group":  "traffic",
                         "title":  {
                                       "ar":  "عينة حملة — نقرات الوجهة",
@@ -3287,6 +3288,7 @@ window.__PORTFOLIO_CONTENT__ = {
                     },
                     {
                         "id":  "traffic-484",
+                        "platform":  "tiktok",
                         "group":  "traffic",
                         "title":  {
                                       "ar":  "عينة حملة — الوصول والزيارات",
@@ -3335,6 +3337,7 @@ window.__PORTFOLIO_CONTENT__ = {
                     },
                     {
                         "id":  "video-7569",
+                        "platform":  "tiktok",
                         "group":  "traffic",
                         "title":  {
                                       "ar":  "عينة حملة — مشاهدات الفيديو",
@@ -3383,6 +3386,7 @@ window.__PORTFOLIO_CONTENT__ = {
                     },
                     {
                         "id":  "paid-12511",
+                        "platform":  "snapchat",
                         "group":  "traffic",
                         "title":  {
                                       "ar":  "عينة حملة — ظهور وزيارات",
