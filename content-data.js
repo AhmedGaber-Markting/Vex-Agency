@@ -4,7 +4,6 @@ window.__PORTFOLIO_CONTENT__ = {
                     "phone":  "+201020969108",
                     "phone2":  "+201003341049",
                     "whatsapp":  "201020969108",
-                    "email":  "ahmedmediabuyer99@gmail.com",
                     "portfolio":  "assets/docs/VEX_Agency_Company_Profile.pdf",
                     "facebook":  "https://web.facebook.com/VexAiAgency?locale=ar_AR",
                     "facebook2":  "https://web.facebook.com/vex.agencyy?locale=ar_AR"
